@@ -8,7 +8,7 @@
 @endsection
 
 @section('title')
-    <!-- gets website from PostController -->
+    <!-- uses the info from PostController -->
     <title>{{$post['title']}}{{$website['website_title']}}</title>
 @endsection
 
